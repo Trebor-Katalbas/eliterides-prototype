@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mandali', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(15,15,15,0.7), rgba(15,15,15,0.7)), url(../image/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 12px 5%;
+    justify-content: space-between;
+    align-items: center;
+    background: #1253B7;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.links ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links ul li a:hover{
+    color: #FF5050;
+}
+.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #000;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.links ul li:hover::after{
+    width: 100%;
+}
+.more{
+    background: #6F6F6F;
+    padding: 2% 5%;
+    text-align: center;
+}
+.ttxt{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    transition: 0.5s;
+}
+.ttxt:hover{
+    color: #1253B7;
+}
+.bd{
+    display: flex;
+    background: #1B1B1B;
+    padding: 7% 30%;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pcol{
+    flex-basis: auto;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    text-align: right;
+}
+.head1{
+    color: #1253B7;
+    font-size: 30px;
+}
+.p1{
+    color: #fff;
+    font-size: 16px;
+}
+.p2{
+    text-decoration: underline;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+}
+.p2:hover{
+    color: #FF5050;
+}
+.bd img{
+    width: 300px;
+    transition: 0.5s;
+}
+.bd img:hover{
+    transform: scale(1.4);
+}

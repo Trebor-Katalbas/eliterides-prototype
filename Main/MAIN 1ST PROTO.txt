@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>ELITE RIDES - Group 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="top">
+        <a href="" class="dis"><img src="Image/pricetag.png">Up to 30% off</a>
+        Holiday Season is coming back, book yours now!
+        <a href="" class="more">&ensp;More info</a>
+    </div>
+    <section class="header">
+        <p>Car Rental - Search, Enjoy & Search</p>
+        <div class="front">
+            <a href="main.html" class="logo"><img src="Image/logo.png"></a>
+            <div class="container">
+                <div class="cont2">
+                    <div><span class="content">Pick-up <br/>Date<br><br>Nov. 30</span><span class="content">Drop-off<br/>Date<br><br>Dec. 3</span><span class="content">Time<br><br>12:00 pm<br><br></span></div>
+                </div>
+                <input type="text" name="Search" placeholder="&#xf002; Search location" style="font-family:Arial, FontAwesome"/>
+                <h2>Get an affordable and <br> decent car with safety.</h2>
+            </div>
+        </div>
+        <p class="phrase" style="font-family:Arial, FontAwesome">&#xf058; Free Cancellation</p>
+        <p class="phrase" style="font-family:Arial, FontAwesome">&#xf058; Trusted Transactions</p>
+        <p class="phrase" style="font-family:Arial, FontAwesome">&#xf058; Customer Support</p>
+        <div class="end">
+            <div class="text" style="font-family:Arial, FontAwesome">&#xf19c;  Connect with your trusted banks</div>
+        </div>
+    </section>
+    
+</body>
+</html>

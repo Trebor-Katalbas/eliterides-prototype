@@ -1,0 +1,51 @@
+<html>
+  <head>
+     <title>Sign up</title>
+	 <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <div class="container">
+	 <div class="step-row">
+		    <div id="progress"></div>
+			<div class="step-col"><small style="color: white;">Sign Up</small></div>
+			<div class="step-col"><small style="color: white;">Step 2</small></div>
+			<div class="step-col"><small style="color: white;">Step 3</small></div>
+		 
+        </div>
+	     <form id="step1">
+		    <h3>Create an account</h3>
+			<input type="text" name="Uname" placeholder="Name" required>
+			<input type="text" name="Pass" placeholder="Username or Email" required>
+			<a href="../signin.html" class="sign-in">Already have an account? Sign in</a>
+             
+		    <div class="btn-box">
+			     <button type="button" id="Next1">Next</button> 
+            </div>			
+		 </form>
+	    <form id="step2">
+		    <h3>Other info</h3>
+			<input type="text" name="email" placeholder="Phone Number" required>
+			<input type="text" name="phone" placeholder="Address" required>
+		    <div class="btn-box">
+			     <button type="button" id="Previous1">Previous</button>
+                 <button type="button" id="Next2">Next</button>				 
+            </div>			
+		 </form>
+		<form id="step3">
+		    <h3>SECURITY</h3>
+			<input type="password" name="password_1" placeholder="Password" required>
+			<input type="password" name="password_2" placeholder="Confirm Password" required>
+		    <div class="btn-box">
+			     <button type="button" id="Previous2">Previous</button>
+                <a href="../signin.html" class="proceed">Submit</a>
+            </div>			
+		 </form>
+         		 
+	 </div>
+  
+	<script src="./scripts.js"></script>
+  </body>
+  </html>

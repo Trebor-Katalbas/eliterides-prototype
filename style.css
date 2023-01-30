@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Mandali', sans-serif;
+}
+body{
+	background-image: linear-gradient(rgba(30,30,30,0.8),rgba(30,30,30,0.8)),url(images/bcars.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	width: 360px;
+	height: 475px;
+	margin: 7% auto;
+	background: #1B1B1B;
+	border-radius: 10px;
+	position: relative;
+}
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    transition: 0.2s;
+}
+img:hover{
+    transform: scale(1.4);
+}
+h3{
+	text-align: center;
+    margin-top: 13px;
+	margin-bottom: 13px;
+    font-size: 25px;
+	color: #fff;
+}
+.container form{
+	width: 280px;
+	position: absolute;
+	top: 35px;
+	left: 40px;
+	transition: 1.5s
+}
+form input{
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border-radius: 10px;
+	border: 1px solid #0077CF;
+	outline: none;
+	background: #D0CECE;
+    opacity: 1;
+    caret-color: #FF3838;
+    transition: 0.3s;
+}
+form input:hover{
+    border: 1px solid #0077CF;
+    opacity: 0.4;
+}
+::placeholder{
+    color: #5C5C5C;
+}
+.sign-in ul li{
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.sign-in ul li a{
+    text-align: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.box{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 110px;
+	height: 35px;
+    margin-top: 25px;
+	margin-left: auto;
+    margin-right: auto;
+	background: transparent;
+	border-radius: 30px;
+	border: 1px solid #fff;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+.box:hover{
+    border: 1px solid #FF3838;
+    background: #FF3838;
+    transition: 1s;
+}

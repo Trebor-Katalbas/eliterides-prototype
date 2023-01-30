@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>ELITE RIDES - Group 6</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mandali&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8dca6be5f2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   <section class="header">
+    <nav>
+       <a href="../main.html"><img src="../Image/logo.png"></a>
+        <p class="title">ELITE RIDES</p>
+        
+        <div class="links">
+            <ul>
+                <li><a href="../main.html"><i class="fa-solid fa-house"></i> HOME</a></li>
+                <li><a href="../TABS/category.html"><i class="fa-solid fa-list-ul"></i> CATEGORY</a></li>
+                <li><a href="../TABS/contract.html"><i class="fa-solid fa-file-contract"></i> BOOKING</a></li>
+                <li><a href="../TABS/minfo.html"><i class="fa-solid fa-circle-question"></i> MORE INFO</a></li>
+            </ul>
+        </div>
+       </nav>
+       <div class="btxt"> 
+           <h1 class="ttxt"> CAR RENTAL CONTRACT</h1>
+       </div>
+       <div class="bod1">
+           <div class="prow">
+                <div class="pcol">
+                    <h3 class="head1"> Car Use</h3>
+                    <p class="p1"> The vehicles should not be used with any illegal purposes and other purposes that is stated in this contract.</p>
+                    <h3 class="head1"> Requirements for Self-drive</h3>
+                    <p class="p1"><i class="fa-solid fa-caret-right"></i> Must present (2 ) valid government IDs.<br><i class="fa-solid fa-caret-right"></i> 3,000 security cash deposit, the cash will be returned after using the car with no damages.<br><i class="fa-solid fa-caret-right"></i> No installation of cash payment.</p>
+                    <h3 class="head1"> Booking</h3>
+                    <p class="p1"> This is to prepare your car prior to your arrival. Payment can be transferred through Gcash, Paymaya, Paypal, Bank deposit, and Money Remittance, (Western Union, Cebuana, Mlhuillier, Palawan). Remember that cancelation fee is free.</p>
+                </div>
+                <div class="pcol2">
+                    <h3 class="head2"> Booking Form</h3>
+                    <form id="book">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="text" name="number" placeholder="Contact Number" required>
+                        <input type="text" name="email" placeholder="Email" required>
+                        <input type="text" name="loc" placeholder="Pick-up Location" required><br>
+                        <label> Pick-up Date:<input type="date" id="Date" name="Date" required></label>
+                        <label> Return Date: <input type="date" id="rdate" name="rdate" required></label>
+                        <input type="text" name="car" placeholder="Car Selection" required><br>
+                        <input type="radio" id="withc" name="choose" value="withc"><label for="withc">With Chauffeur</label>
+                        <input type="radio" id="self" name="choose" value="self"><label for="self">Self-Drive</label><br>
+                        <label for="pay">Payment Method:</label>
+                        <select id="pay" name="payment">
+                            <option value="gcash">Gcash</option>
+                            <option value="paymaya">PayMaya</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="bdo">BDO</option>
+                            <option value="union">Union Bank</option>
+                            <option value="metro">Metro Bank</option>
+                            <option value="lb">Landbank</option>
+                            <option value="pp">Palawan Pawnshop</option>
+                            <option value="wu">Western Union</option>
+                            <option value="ml">Mlhuillier</option>
+                            <option value="cp">Cebuana Padala</option>
+                        </select>
+                        <div class="btn-box">
+                            <a href="../TABS/chauffeur.html" class="box"> Book </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
