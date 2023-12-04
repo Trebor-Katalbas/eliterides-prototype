@@ -1,2 +1,2 @@
-# eliterides-mockup
-A mock-up website for our college project
+# eliterides-prototype
+A prototype website for our college project
